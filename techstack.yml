@@ -1,0 +1,151 @@
+repo_name: shandanjay/chromex
+report_id: 18a6f06c0b908dd7803df604d3cfd6bb
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T14:30:01+00:00'
+requested_by: babot
+provider: github
+branch: master
+detected_tools_count: 12
+tools:
+- name: Clojure
+  description: A dynamic programming language that targets the Java Virtual Machine
+  website_url: http://clojure.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1003/Clojure_300x300.png
+  detection_source_url: https://github.com/shandanjay/chromex
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/shandanjay/chromex
+  detection_source: Repo Metadata
+- name: Mustache
+  description: Logic-less templates
+  website_url: http://mustache.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1142/197655.png
+  detection_source_url: https://github.com/shandanjay/chromex
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/shandanjay/chromex
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/shandanjay/chromex
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/shandanjay/chromex/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Antonin Hildebrand
+  last_updated_on: 2015-11-28 19:48:34.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/shandanjay/chromex
+  detection_source: Repo Metadata
+- name: camel-snake-kebab
+  description: A library for word case conversions
+  package_url: https://clojars.org/camel-snake-kebab
+  version: 0.3.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/shandanjay/chromex/blob/master/tools/api-gen/project.clj
+  detection_source: tools/api-gen/project.clj
+  last_updated_by: Antonin Hildebrand
+  last_updated_on: 2015-11-18 19:16:08.000000000 Z
+- name: clj-time
+  description: A date and time library for Clojure, wrapping Joda Time
+  package_url: https://clojars.org/clj-time
+  version: 0.8.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/shandanjay/chromex/blob/master/tools/api-gen/project.clj
+  detection_source: tools/api-gen/project.clj
+  last_updated_by: Antonin Hildebrand
+  last_updated_on: 2015-11-18 19:16:08.000000000 Z
+- name: cljfmt
+  description: A library for formatting Clojure code
+  package_url: https://clojars.org/cljfmt
+  version: 0.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/shandanjay/chromex/blob/master/tools/api-gen/project.clj
+  detection_source: tools/api-gen/project.clj
+  last_updated_by: Antonin Hildebrand
+  last_updated_on: 2015-11-18 19:16:08.000000000 Z
+- name: de.ubercode.clostache/clostache
+  description: "{{ mustache }} for Clojure"
+  package_url: https://clojars.org/de.ubercode.clostache/clostache
+  version: 1.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/shandanjay/chromex/blob/master/tools/api-gen/project.clj
+  detection_source: tools/api-gen/project.clj
+  last_updated_by: Antonin Hildebrand
+  last_updated_on: 2015-11-18 19:16:08.000000000 Z
+- name: funcool/cuerdas
+  description: The missing string manipulation library for clojure
+  package_url: https://clojars.org/funcool/cuerdas
+  version: 0.6.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/shandanjay/chromex/blob/master/tools/api-gen/project.clj
+  detection_source: tools/api-gen/project.clj
+  last_updated_by: Antonin Hildebrand
+  last_updated_on: 2015-11-18 19:16:08.000000000 Z
